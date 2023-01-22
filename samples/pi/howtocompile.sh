@@ -1,0 +1,1 @@
+nvcc -rdc=true -ccbin g++ -gencode=arch=compute_70,code=sm_70 -I $NVSHMEM_HOME/include -L $NVSHMEM_HOME/lib  pi_nvshmem.cu -o pi_nvshmem -lnvidia-ml -lcudart -lnvshmem -lcuda

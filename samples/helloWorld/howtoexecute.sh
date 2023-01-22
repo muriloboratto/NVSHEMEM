@@ -1,0 +1,1 @@
+nvshmrun -n 4 ./helloWorld_nvshmem
